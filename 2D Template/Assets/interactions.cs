@@ -1,0 +1,24 @@
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+public class interactions : MonoBehaviour
+{
+    public Vector2 boxSize;
+    public LayerMask boxLayer;
+    public void InteractWith(InputAction.CallbackContext ctx)
+    {
+        if (ctx.ReadValue<float>() == 0)
+            return;
+        RaycastHit2D hit = Physics2D.BoxCast(transform.position, new Vector2(1.5f, 1.5f), 0, Vector2.zero,1,boxLayer);
+
+        if (hit && hit.collider.TryGetComponent(out interactables interactable))
+        {
+            interactable.onInteract.Invoke();   
+        }
+    }
+
+     private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireCube(transform.position, new Vector2(1.5f, 1.5f));
+    }
+}
