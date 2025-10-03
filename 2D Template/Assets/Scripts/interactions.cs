@@ -13,6 +13,7 @@ public class interactions : MonoBehaviour
 
         if (hit && hit.collider.TryGetComponent(out interactables interactable))
         {
+
             interactable.onInteract.Invoke();   
         }
     }
@@ -21,4 +22,5 @@ public class interactions : MonoBehaviour
     {
         Gizmos.DrawWireCube(transform.position, new Vector2(1.5f, 1.5f));
     }
+  
 }
