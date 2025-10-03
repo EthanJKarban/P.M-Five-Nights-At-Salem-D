@@ -9,6 +9,7 @@ public class Movement : MonoBehaviour
     public KeyCode jump = KeyCode.W;
     [SerializeField] private float speed = 3, jumpHeight = 15, maxSpeed = 10;
     private Rigidbody2D _rb;
+    //: You are gonna need 400 speed and 2 linear drag for movement that isn't bad
 
     void Start()
     {
@@ -45,10 +46,15 @@ public class Movement : MonoBehaviour
 
         }
 
-        if (_rb.linearVelocity.x > maxSpeed)
-            _rb.linearVelocity = new Vector2(maxSpeed, _rb.linearVelocity.y);
-        if (_rb.linearVelocity.x < -maxSpeed)
-            _rb.linearVelocity = new Vector2(maxSpeed, _rb.linearVelocity.y);
+        if (_rb.linearVelocityX > maxSpeed)
+            _rb.linearVelocityX = maxSpeed;
+        if (_rb.linearVelocityX < -maxSpeed)
+            _rb.linearVelocityX = -maxSpeed;
+
+        if (_rb.linearVelocityY > maxSpeed)
+            _rb.linearVelocityY = maxSpeed;
+        if (_rb.linearVelocityY < -maxSpeed)
+            _rb.linearVelocityY = -maxSpeed;
     }
 }
     
