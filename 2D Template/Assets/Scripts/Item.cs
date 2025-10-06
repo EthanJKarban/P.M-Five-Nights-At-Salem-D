@@ -1,16 +1,32 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
-public class Item : MonoBehaviour
+[CreateAssetMenu(menuName = "Scriptable object/Item")]
+public class Item : ScriptableObject
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    
+    [Header("Only gameplay")]
+    public TileBase tile;
+    public ItemType type;
+    public ActionType actionType;
+    public Vector2Int range = new Vector2Int(5, 4);
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [Header("Only UI")]
+    public bool stackable = true;
+
+    [Header("Both")]
+    public Sprite image;
+}
+
+public enum ItemType
+{
+   BuildingBlock,
+   Tool,
+}
+public enum ActionType
+{
+    Dig,
+    Mine
 }
