@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class interactables : MonoBehaviour
+public class Interactables : MonoBehaviour
 {
    public UnityEvent onInteract;    
 }

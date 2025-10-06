@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class interactions : MonoBehaviour
+public class Interactions : MonoBehaviour
 {
     public Vector2 boxSize;
     public LayerMask boxLayer;
@@ -11,10 +11,10 @@ public class interactions : MonoBehaviour
             return;
         RaycastHit2D hit = Physics2D.BoxCast(transform.position, new Vector2(1.5f, 1.5f), 0, Vector2.zero,1,boxLayer);
 
-        if (hit && hit.collider.TryGetComponent(out interactables interactable))
+        if (hit && hit.collider.TryGetComponent(out Interactables Interactable))
         {
 
-            interactable.onInteract.Invoke();   
+            Interactable.onInteract.Invoke();   
         }
     }
 
