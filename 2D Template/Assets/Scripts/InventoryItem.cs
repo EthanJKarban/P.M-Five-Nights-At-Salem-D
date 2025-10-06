@@ -2,15 +2,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
+using static UnityEditor.Progress;
 
 public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
+    
+
     [Header("UI")]
     public Image image;
 
+
     [HideInInspector] public Transform parentAfterDrag;
+    [HideInInspector] public Item item;
+    public void Start()
+    {
+        InitialiseItem(item);
+    }
+
+    public void InitialiseItem(Item newItem)
+    {
+        item = newItem;
+        image.sprite = item.image;
+    }
     public void OnBeginDrag(PointerEventData eventData)
     {
         image.raycastTarget = false;
