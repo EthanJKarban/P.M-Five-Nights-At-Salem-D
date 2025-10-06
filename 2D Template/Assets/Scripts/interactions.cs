@@ -11,13 +11,13 @@ public class Interactions : MonoBehaviour
             return;
         RaycastHit2D hit = Physics2D.BoxCast(transform.position, boxSize, 0, Vector2.zero,1,boxLayer);
 
-        if (hit && hit.collider.TryGetComponent(out Interactables Interactable))
+        if (hit && hit.collider.TryGetComponent(out Interactables interactable))
         {
 
-            Interactable.onInteract.Invoke();   
+            interactable.onInteract.Invoke();   
         }
     }
-
+     
      private void OnDrawGizmos()
     {
         Gizmos.DrawWireCube(transform.position, boxSize);
