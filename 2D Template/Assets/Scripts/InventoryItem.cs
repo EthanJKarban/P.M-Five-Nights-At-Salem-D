@@ -11,14 +11,21 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     
 
     [Header("UI")]
-    public Image image;
+    private Image image;
     public Text countText;
 
     [HideInInspector] public Transform parentAfterDrag;
     [HideInInspector] public int count = 1;
     [HideInInspector] public Item item;
+
+    private void Awake()
+    {
+        image = GetComponent<Image>();
+    }
+
     public void Start()
     {
+        
         InitialiseItem(item);
     }
 

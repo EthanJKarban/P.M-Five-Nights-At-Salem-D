@@ -9,9 +9,14 @@ public class InventoryManager : MonoBehaviour
 
     int selectedSlot = -1;
 
+
+    private void Start()
+    {
+        ChangeSelectedSlot(0);
+    }
     void ChangeSelectedSlot(int newValue)
     {
-        if(selectedSlot >= 0)
+        if (selectedSlot >= 0)
         {
          inventorySlots[selectedSlot].Deselect();
 

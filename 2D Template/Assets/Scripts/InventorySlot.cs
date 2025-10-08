@@ -6,15 +6,18 @@ using JetBrains.Annotations;
 public class InventorySlot : MonoBehaviour, IDropHandler
 {
     
-    public Image image;
+    private Image image;
     public Color selectedColor, notSelectedColor;
 
     private void Awake()
     {
+        image = GetComponent<Image>();
         Deselect();
     }
     public void Select()
     {
+        image ??= GetComponent<Image>();
+
         image.color = selectedColor;
     }
     public void Deselect()
@@ -24,7 +27,6 @@ public class InventorySlot : MonoBehaviour, IDropHandler
 
     public void OnDrop(PointerEventData eventData)
     {
-       
         if (transform.childCount == 0)
         {
             InventoryItem inventoryItem = eventData.pointerDrag.GetComponent<InventoryItem>();

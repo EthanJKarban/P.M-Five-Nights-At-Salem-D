@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e4f3d80cfc20aa242be08d7c45b91c5c
+guid: a2c65e85dc4087b43b36b4a95c9646c7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6784796793185678308
-    second: Path -1.png_0
+      213: 2917734805244577795
+    second: INVENTORY_LOG_WOOD_PIECE_SLOTS_FIXED_SALEM_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Path -1.png_0
+      name: INVENTORY_LOG_WOOD_PIECE_SLOTS_FIXED_SALEM_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
+        x: 671
+        y: 159
+        width: 4482
+        height: 642
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e3ba0b6cb0782e50800000000000000
-      internalID: 6784796793185678308
+      spriteID: 3088567b850ed7820800000000000000
+      internalID: 2917734805244577795
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Path -1.png_0: 6784796793185678308
+      INVENTORY_LOG_WOOD_PIECE_SLOTS_FIXED_SALEM_0: 2917734805244577795
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
