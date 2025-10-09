@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BOB_DIALOGUE_BOX_TEXT_CHAT_SALEM_0: 8910309010156667908
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

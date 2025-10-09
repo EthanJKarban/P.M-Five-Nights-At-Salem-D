@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BOBBY_THE_FISHER_TEXT_BOX_DIALOGUE_SALEM_0: 4606747560783492177
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      JAY_SLAT_THE_FARMER_TEXT_BOX_DIALOGUE_SALEM_0: -4555005206698686272
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

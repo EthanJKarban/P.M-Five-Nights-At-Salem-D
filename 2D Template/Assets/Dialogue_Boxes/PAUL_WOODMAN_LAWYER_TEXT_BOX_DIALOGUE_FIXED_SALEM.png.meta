@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PAUL_WOODMAN_LAWYER_TEXT_BOX_DIALOGUE_FIXED_SALEM_0: -2654941193716050624
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

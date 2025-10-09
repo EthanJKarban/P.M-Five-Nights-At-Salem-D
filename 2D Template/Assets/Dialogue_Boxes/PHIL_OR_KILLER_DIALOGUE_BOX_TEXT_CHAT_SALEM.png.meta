@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PHIL_OR_KILLER_DIALOGUE_BOX_TEXT_CHAT_SALEM_0: 3717488143511648991
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
