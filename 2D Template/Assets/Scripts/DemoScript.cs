@@ -18,4 +18,30 @@ public class DemoScript : MonoBehaviour
             Debug.Log("Stop hoarding you cow");
         }
     }
+    public void GetSelectedItem()
+    {
+        Item receievedItem = inventoryManager.GetSelectedItem(false);
+        if (receievedItem != null)
+        {
+         Debug.Log("Received item: " + receievedItem.name);
+        }
+        else
+        {
+            Debug.Log("Not Recieved");
+        }
+
+    }
+    public void UseSelectedItem()
+    {
+        Item receievedItem = inventoryManager.GetSelectedItem(true);
+        if (receievedItem != null)
+        {
+            Debug.Log("Use item: " + receievedItem.name);
+        }
+        else
+        {
+            Debug.Log("Not used");
+        }
+
+    }
 }

@@ -81,7 +81,7 @@ public class InventoryManager : MonoBehaviour
                 itemInSlot.RefreshCount();
                 return true;
             }
-            
+
         }
 
         //Spawns in a new item if the item is not already in the inventory
@@ -104,20 +104,34 @@ public class InventoryManager : MonoBehaviour
             inventoryItem.InitialiseItem(item);
 
 
-        }
-        //public Item GetSelectedItem(bool use)
-        //{
-        //    InventorySlot slot = inventorySlots[selectedSlot];
-        //    InventoryItem itemInSlot = slot.GetComponentInChildren<InventoryItem>();
-        //if (itemInSlot != null)
-        //{
-        //    Item item = itemInSlot = itemInSlot.item;
+        } }
+        public Item GetSelectedItem(bool use)
+    {
+        InventorySlot slot = inventorySlots[selectedSlot];
+        InventoryItem itemInSlot = slot.GetComponentInChildren<InventoryItem>();
+        if (itemInSlot != null)
+        {
+            Item item = itemInSlot.item;
+            if (use == true)
+            {
+                itemInSlot.count--;
+                if (itemInSlot.count <= 0)
+                {
+                    Destroy(itemInSlot.gameObject);
 
-        //    return null;
-        //}
-        //}
+                }
+                else
+                {
+                    itemInSlot.RefreshCount();
+                }
+                
+            }
+            return item;
+        }
+        return null;
     }
 }
+
     
 
 
