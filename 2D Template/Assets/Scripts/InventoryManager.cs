@@ -105,17 +105,17 @@ public class InventoryManager : MonoBehaviour
 
 
         }
-        public Item GetSelectedItem(bool use)
-        {
-            InventorySlot slot = inventorySlots[selectedSlot];
-            InventoryItem itemInSlot = slot.GetComponentInChildren<InventoryItem>();
-            if (itemInSlot != null)
-            {
-                Item item = itemInSlot = itemInSlot.item;
-        
-            return null;
+        //public Item GetSelectedItem(bool use)
+        //{
+        //    InventorySlot slot = inventorySlots[selectedSlot];
+        //    InventoryItem itemInSlot = slot.GetComponentInChildren<InventoryItem>();
+        //if (itemInSlot != null)
+        //{
+        //    Item item = itemInSlot = itemInSlot.item;
 
-        }
+        //    return null;
+        //}
+        //}
     }
 }
     
