@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.Tilemaps;
 
 [CreateAssetMenu(menuName = "Scriptable object/Item")]
@@ -12,6 +13,7 @@ public class Item : ScriptableObject
     public ItemType type;
     public ActionType actionType;
     public Vector2Int range = new Vector2Int(5, 4);
+    public Light2D light;
 
     [Header("Only UI")]
     public bool stackable = true;
