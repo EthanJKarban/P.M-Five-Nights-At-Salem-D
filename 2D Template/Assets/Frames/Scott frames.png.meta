@@ -1,0 +1,393 @@
+fileFormatVersion: 2
+guid: b71dccd3775d7884fae1befcb74ffed9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8748560932067622368
+    second: Scott frames_0
+  - first:
+      213: -4845467190639458090
+    second: Scott frames_1
+  - first:
+      213: 5581054206744953885
+    second: Scott frames_2
+  - first:
+      213: -2065718012466307646
+    second: Scott frames_3
+  - first:
+      213: -8446732380536284565
+    second: Scott frames_4
+  - first:
+      213: -5450094981079416941
+    second: Scott frames_5
+  - first:
+      213: -158522154079706989
+    second: Scott frames_6
+  - first:
+      213: -1502821192650388531
+    second: Scott frames_7
+  - first:
+      213: 1950335190389857548
+    second: Scott frames_8
+  - first:
+      213: 6517935477012634065
+    second: Scott frames_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Scott frames_0
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 9599
+        width: 1506
+        height: 3201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed30cbd0d1296970800000000000000
+      internalID: 8748560932067622368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scott frames_1
+      rect:
+        serializedVersion: 2
+        x: 4558
+        y: 10742
+        width: 484
+        height: 916
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d80023334171ccb0800000000000000
+      internalID: -4845467190639458090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scott frames_2
+      rect:
+        serializedVersion: 2
+        x: 7231
+        y: 9599
+        width: 1314
+        height: 3138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d148b393b33e37d40800000000000000
+      internalID: 5581054206744953885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scott frames_3
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 6399
+        width: 1250
+        height: 3138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdd1dc89681553e0800000000000000
+      internalID: -2065718012466307646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scott frames_4
+      rect:
+        serializedVersion: 2
+        x: 4223
+        y: 6399
+        width: 1314
+        height: 2978
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a585117ad27ca80800000000000000
+      internalID: -8446732380536284565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scott frames_5
+      rect:
+        serializedVersion: 2
+        x: 7423
+        y: 6399
+        width: 1314
+        height: 2978
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f3f949d7f5d54b0800000000000000
+      internalID: -5450094981079416941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scott frames_6
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 3199
+        width: 1314
+        height: 2946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390ac05d0f0dccdf0800000000000000
+      internalID: -158522154079706989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scott frames_7
+      rect:
+        serializedVersion: 2
+        x: 4127
+        y: 3199
+        width: 1314
+        height: 2946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb052b6618e42be0800000000000000
+      internalID: -1502821192650388531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scott frames_8
+      rect:
+        serializedVersion: 2
+        x: 7391
+        y: 3199
+        width: 1250
+        height: 3138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d9128b58bf01b10800000000000000
+      internalID: 1950335190389857548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scott frames_9
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 0
+        width: 1250
+        height: 3137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9114868cb547a50800000000000000
+      internalID: 6517935477012634065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
