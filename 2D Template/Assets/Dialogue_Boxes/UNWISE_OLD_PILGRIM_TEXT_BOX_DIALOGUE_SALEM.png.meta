@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UNWISE_OLD_PILGRIM_TEXT_BOX_DIALOGUE_SALEM_0: 1099843887081244073
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

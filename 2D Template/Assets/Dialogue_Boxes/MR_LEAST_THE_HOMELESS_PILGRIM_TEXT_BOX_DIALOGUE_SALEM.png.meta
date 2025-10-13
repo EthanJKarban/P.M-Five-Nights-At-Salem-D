@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MR_LEAST_THE_HOMELESS_PILGRIM_TEXT_BOX_DIALOGUE_SALEM_0: -1655095305826093447
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
