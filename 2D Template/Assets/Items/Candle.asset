@@ -16,5 +16,9 @@ MonoBehaviour:
   type: 2
   actionType: 2
   range: {x: 5, y: 4}
+  light: 3
+  lightColor: {r: 1, g: 0.6442448, b: 0.2028302, a: 1}
+  lightIntensity: 10
+  lightRadius: 10
   stackable: 0
   image: {fileID: 2821414069885059743, guid: 68f6c7688e4168d4596420b0ab8d1ee3, type: 3}

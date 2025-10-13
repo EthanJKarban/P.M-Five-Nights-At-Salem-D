@@ -385,7 +385,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Scott frames_0: 8748560932067622368
+      Scott frames_1: -4845467190639458090
+      Scott frames_2: 5581054206744953885
+      Scott frames_3: -2065718012466307646
+      Scott frames_4: -8446732380536284565
+      Scott frames_5: -5450094981079416941
+      Scott frames_6: -158522154079706989
+      Scott frames_7: -1502821192650388531
+      Scott frames_8: 1950335190389857548
+      Scott frames_9: 6517935477012634065
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
