@@ -3,8 +3,9 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
-    public static InventoryManager instance;
     public Item[] startItems;
+    public static InventoryManager instance;
+   
 
     public int maxStackedItems = 4;
     public InventorySlot[] inventorySlots;
