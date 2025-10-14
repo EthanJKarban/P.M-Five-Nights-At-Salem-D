@@ -20,11 +20,12 @@ public class InventoryManager : MonoBehaviour
 
     private void Start()
     {
-        ChangeSelectedSlot(0);
-        foreach (var item in startItems)
+        foreach (var Item in startItems)
         {
-            AddItem(item);
+            AddItem(Item);
         }
+
+        ChangeSelectedSlot(0);
     }
 
     private void Update()

@@ -5,7 +5,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 {
     public void StartButton()
     {
-        SceneManager.LoadScene("Day");    
+        SceneManager.LoadScene("FinalSun");    
     }
 
     public void QuitButton()
