@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/FinalSun.unity
     guid: a314ed1b9b95d134693df6288383c8ab
   - enabled: 1
+    path: Assets/Scenes/FinalNight.unity
+    guid: ef99f2389addf7a4a8a76177c9e2acbc
+  - enabled: 1
     path: Assets/Scenes/Day.unity
     guid: 601481465125e0c43bde2ca9c2d41537
   - enabled: 0
