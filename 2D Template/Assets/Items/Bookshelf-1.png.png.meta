@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bookshelf-1.png_0: -3147374541531080871
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
