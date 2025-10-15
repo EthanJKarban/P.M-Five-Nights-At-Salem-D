@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class TP : MonoBehaviour
 {
-    public Vector2 destination;
+    public Vector3 destination;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             collision.transform.position = destination;
-            collision.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+            collision.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
         }
     }
 
