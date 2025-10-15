@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      STATUE_EVIL_GUY_THING_SALEM_0: 4587513398560631417
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
